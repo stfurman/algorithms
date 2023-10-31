@@ -1,6 +1,6 @@
 # Bogo sort algorithm
 
-# Bogo sort is a comparison-based sorting algorithm. It is a variation of the Fisher-Yates shuffle algorithm wherein the array is sorted and constantly checked if it is in the correct order.
+# Bogo sort (aka Stupid Sport) is a comparison-based sorting algorithm. It is a variation of the Fisher-Yates shuffle algorithm wherein the array is sorted and constantly checked if it is in the correct order.
 # The algorithm repeatedly shuffles the array until the elements are in the correct order.
 # Bogo sort is absolutely not a practical sorting algorithm and is primarily used for educational purposes on very small datasets.
 # Bogo sort has an average time complexity of O(n * n!) and a worst-case time complexity of O(∞).

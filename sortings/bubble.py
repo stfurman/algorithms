@@ -16,6 +16,7 @@ def bubble_sort_with_for_loops(list):
 
 list1 = [50, 20, 10, 30, 40, 66, 33, 77, 23, 5, 1, 3, 8]
 print("Original list:", list1)
+
 bubble_sort_with_for_loops(list1)
 print("Sorted list:", list1)
 
@@ -36,5 +37,6 @@ def bubble_sort(list):
 
 list2 = [22, 4, 55, 12, 57, 7, 49, 45, 2, 1, 3, 8]
 print("Original list:", list2)
+
 bubble_sort(list2)
 print("Sorted list:", list2)
