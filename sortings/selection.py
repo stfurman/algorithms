@@ -16,12 +16,13 @@ def selection_sort(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
 
+        # if found an element less than the current element, swap these elements
         if min_index != i:
             arr[i], arr[min_index] = arr[min_index], arr[i]
 
-# Example usage:
-my_list = [64, 25, 12, 22, 11]
-print("Original list:", my_list)
 
-selection_sort(my_list)
-print("Sorted list:", my_list)
+arr = [4, 8, 5, 1, 9, 6, 3, 7, 2, 10]
+print("Original list:", arr)
+
+selection_sort(arr)
+print("Sorted list:", arr)
